@@ -32,6 +32,7 @@
     background-color: #f3f3f3;
     border-radius: 20px;
     cursor: pointer;
+    display: flex;
     transition: ease 0.6s;
     box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
