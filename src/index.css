@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('/Images/main-bg.png');
+
+}
+
+
+main {
+  display: flex;
+  justify-content: center;
+
+  padding-bottom: 150px;
+}
+
+.quiz-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.quiz-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.quiz-footer {
+  display: flex;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
+  border-top: 4px solid #000;
+  align-items: center;
+}
+
+.question-count {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.main-btn, .footerbtn {
+  background-color: #FDEB42;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  border-radius: 25px;
+  border: 3px solid #000;
+  cursor: pointer;
+}
+
+.main-btn:active, .footerbtn:active{
+  scale: 0.9;
+} 
+
+.footerbtn:disabled {
+  opacity: 0.6;
+  border: 3px solid #fff;
+}
+
+.homepage {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-image: url('/Images/main-bg2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.startscreen , .score-card{
+  height: 80%;
+  width: calc(100% - 40px);
+  max-width: 1000px;
+  background-color: white;
+  border-radius: 25px;
+  border: 5px dashed #fdaf42;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.startscreen h1 {
+  text-align: center;
+  font-family: "Chewy", serif;
+  font-size: 45px;
+  color: #FDEB42;
+  text-shadow: .1em .1em 0 #4a4300;
+  letter-spacing:2px;
+}
+
+
+.startscreen h3{
+  margin-top: 20px;
+  color: #494706;
+  text-align: center;
+}
+
+
+.startquiz-btn{
+  margin-top: 30px;
+}
+
+.logo {
+  max-width: 40%;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width : 600px) {
+
+  .logo {
+    max-width: 60%;
+    margin-bottom: 30px;
+  }
+
+}
+
+@media screen and (max-width : 445px) {
+
+  .logo {
+    max-width: 80%;
+    margin-bottom: 30px;
+  }
+
+}
