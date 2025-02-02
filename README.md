@@ -3,6 +3,8 @@
 
 A simple and interactive **Quiz Application** built with **React.js**. This app presents multiple-choice questions, allows users to select answers, and provides instant feedback along with explanations.  
 
+**Live DEMO** : [https://reactquiz-harshkhanagwal.netlify.app](https://reactquiz-harshkhanagwal.netlify.app)
+
 ## 🚀 Features
 
 - Dynamic question rendering  
